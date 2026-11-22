@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to Verify Quiz Answers (Don't Trust Fake Answers) | Daily Quiz Answers</title>
+<meta name="description" content="How to verify quiz answers: why fake answer lists spread, how to spot them, and where to check the real answers.">
+<link rel="canonical" href="https://dailyquizanswers.github.io/guides/quiz-answers-how-to-verify.html">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;background:#FAFAF9;color:#1c1917;line-height:1.7}
+body,sans,button,input{font-family:system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif}
+h1,h2,h3,.serif{font-family:Georgia,'Times New Roman',serif}
+a{color:#6D28D9;text-decoration:none}
+a:hover{text-decoration:underline}
+.masthead{background:#6D28D9;color:#fff;padding:28px 16px 0;text-align:center}
+.masthead h1{font-size:2.6rem;letter-spacing:.5px}
+.masthead h1 a{color:#fff}
+.dateline{color:#FDE68A;font-size:.9rem;margin:6px 0 14px}
+nav{background:#5B21B6;padding:10px 16px;text-align:center}
+nav a{color:#fff;margin:0 12px;font-weight:600;font-size:.95rem}
+.wrap{max-width:960px;margin:0 auto;padding:20px 16px}
+.featured{display:grid;grid-template-columns:1.2fr 1fr;gap:20px;background:#fff;border:1px solid #e7e5e4;border-radius:10px;overflow:hidden;margin-bottom:28px}
+.featured img{width:100%;height:100%;object-fit:cover;display:block}
+.featured .ftext{padding:22px}
+.kicker{color:#B45309;text-transform:uppercase;font-size:.8rem;font-weight:700;letter-spacing:1px}
+.featured h2{font-size:1.7rem;line-height:1.3;margin:8px 0}
+.btn{display:inline-block;background:#F59E0B;color:#1c1917;font-weight:700;padding:10px 18px;border-radius:6px;margin-top:12px}
+.btn:hover{text-decoration:none;background:#D97706;color:#fff}
+h2.sec{font-size:1.5rem;border-bottom:3px solid #F59E0B;padding-bottom:6px;margin:28px 0 16px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.toolcard{background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:18px}
+.toolcard h3{color:#6D28D9;margin-bottom:6px}
+.toolcard button,.qbtn{background:#6D28D9;color:#fff;border:0;padding:9px 16px;border-radius:6px;cursor:pointer;font-weight:600;margin-top:8px}
+.toolcard button:hover,.qbtn:hover{background:#5B21B6}
+.opt{display:block;width:100%;text-align:left;background:#F5F3FF;border:1px solid #DDD6FE;padding:9px 12px;border-radius:6px;margin:6px 0;cursor:pointer}
+.opt:hover{background:#EDE9FE}
+.opt.correct{background:#DCFCE7;border-color:#16A34A}
+.opt.wrong{background:#FEE2E2;border-color:#DC2626}
+.opt:disabled{cursor:default;opacity:.85}
+.qbox{margin-top:10px}
+.score{font-weight:700;color:#6D28D9;margin-top:8px}
+.timer{font-size:1.3rem;font-weight:700;color:#B45309}
+.list{display:grid;gap:16px}
+.item{display:grid;grid-template-columns:160px 1fr;gap:16px;background:#fff;border:1px solid #e7e5e4;border-radius:10px;overflow:hidden}
+.item img{width:160px;height:130px;object-fit:cover;display:block}
+.item .it{padding:14px 16px 14px 0}
+.item h3{font-size:1.15rem;line-height:1.35}
+.item p{font-size:.93rem;color:#57534E;margin-top:4px}
+.article{background:#fff;border:1px solid #e7e5e4;border-radius:10px;padding:26px;margin-bottom:20px}
+.article img.hero{width:100%;border-radius:8px;margin:14px 0}
+.article h2{margin:22px 0 8px;color:#4C1D95}
+.article p{margin-bottom:12px}
+.article ul,.article ol{margin:0 0 14px 22px}
+.faq{background:#F5F3FF;border-radius:8px;padding:16px;margin-top:20px}
+.faq h3{color:#6D28D9;margin-bottom:8px}
+.faq p{margin-bottom:10px}
+footer{background:#1c1917;color:#D6D3D1;text-align:center;padding:26px 16px;margin-top:30px;font-size:.9rem}
+footer a{color:#FCD34D}
+.disc{background:#FFFBEB;border:1px solid #FDE68A;border-radius:8px;padding:14px;margin:20px 0;font-size:.92rem}
+@media(max-width:640px){.featured{grid-template-columns:1fr}.item{grid-template-columns:1fr}.item img{width:100%;height:180px}.masthead h1{font-size:1.9rem}.featured h2{font-size:1.35rem}}
+</style>
+</head>
+<body>
+<header class="masthead">
+<h1><a href="/">Daily Quiz Answers</a></h1>
+<p class="dateline">General Knowledge, Trivia &amp; Exam Quiz Guides for Pakistan &mdash; Updated Daily</p>
+</header>
+<nav>
+<a href="/">Home</a>
+<a href="/tools.html">Quiz Tools</a>
+<a href="/about.html">About</a>
+<a href="/contact.html">Contact</a>
+<a href="/privacy.html">Privacy Policy</a>
+<a href="/disclaimer.html">Disclaimer</a>
+</nav>
+<div class="wrap">
+
+<article class="article">
+<p class="kicker">Daily Quiz Answers &middot; Guides</p>
+<h1>How to Verify Quiz Answers (Don't Trust Fake Answers)</h1>
+<img class="hero" src="/images/quiz-answers-how-to-verify.jpg" alt="How to Verify Quiz Answers (Don't Trust Fake Answers)">
+<h2>Why Fake Quiz Answers Spread</h2><p>Every day, thousands of people search for the answers to a daily quiz in an app or on TV. That demand creates a market for fake answer lists: websites and social media pages publish 'today's answers' to attract clicks, and forwarded messages spread them further. Many of these lists are copied from old quizzes, guessed, or simply invented. The result is that honest players lose rewards they should have won, and exam candidates learn wrong facts. This guide explains how to protect yourself.</p><h2>Red Flags of a Fake Answer List</h2><p>Be suspicious of any page that promises '100% correct answers' without showing its source, that has no date or shows yesterday's date, or that copies the same answers across many different quizzes. Watch for answers that contradict basic facts you know, for pages full of pop-up ads and no real content, and for lists shared as screenshots that cannot be checked. If an answer list asks you to download an app, pay money or share personal details to 'unlock' the answers, it is almost certainly a scam. Genuine quiz answers are free and are found in the official app itself.</p><h2>How to Check an Answer Properly</h2><p>First, check the official app or the official website — for app quizzes, the correct answer is usually shown after you answer, or in the app's own help section. Second, for general knowledge facts, verify against a reliable source: a textbook, an encyclopaedia or an official website. Third, for exam-related facts, check past papers or the exam body's official site. Fourth, be careful with anything time-sensitive — rewards, deadlines and exam dates change, so only the official source is authoritative. When two reliable sources disagree, look for a third, and prefer the one that cites its own source.</p><h2>What to Do Instead of Searching for Answers</h2><p>The honest way to win a daily quiz is to learn the underlying knowledge, not to hunt for a leaked list. Use the practice tools on this site to build real general knowledge, and treat the daily quiz as a test of what you know. If you are unsure of an answer inside the official app, use the app's own lifelines or hints rather than an outside list. For exam preparation, build your own notes and revise them — that knowledge stays with you long after the quiz ends. And if you run a page that shares quiz content, only publish answers you have verified yourself, with the date clearly shown.</p><h2>A Five-Second Check Before You Believe Anything</h2><p>Before you trust any quiz answer, run this five-second check. One: who published it — a named, reputable source or an anonymous page? Two: when was it published — today, or copied from months ago? Three: does it match what you already know from reliable sources? Four: does the page show its source, or just claim '100% correct'? Five: does it ask you for money, personal details or a download before showing the answer? If any answer fails, do not use it. This habit protects you far beyond quizzes: the same five questions expose fake news, scam messages and false health claims. Teach it to your family, especially children and older relatives, who are the most common targets of forwarded misinformation in Pakistan.</p>
+<div class="faq"><h3>Frequently Asked Questions</h3><p><strong>Q: Why are so many quiz answer lists wrong?</strong><br>A: They are often copied from old quizzes, guessed, or invented to attract clicks. Daily quiz answers change every day, so old lists are useless.</p><p><strong>Q: Where is the safest place to check a quiz answer?</strong><br>A: In the official app or on the official website. For general knowledge facts, use textbooks and established encyclopaedias.</p><p><strong>Q: Are quiz answer websites illegal?</strong><br>A: Sharing answers is not necessarily illegal, but pages that mislead users, demand payment for free answers or steal personal data are scams and should be reported.</p></div>
+<p style="margin-top:18px"><a href="/">&larr; Back to home</a> &middot; <a href="/tools.html">Try the free quiz tools</a></p>
+</article>
+
+</div>
+<footer>
+<p><strong>Daily Quiz Answers</strong> &mdash; General knowledge, trivia and exam quiz guides for Pakistan.</p>
+<p><em>Unofficial &amp; independent:</em> this site is not affiliated with, endorsed by, or connected to any quiz app, TV channel, exam body, or mobile operator. Quiz answers and rewards change daily &mdash; always confirm them in the official app or on the official website.</p>
+<p><a href="/about.html">About</a> &middot; <a href="/contact.html">Contact</a> &middot; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/disclaimer.html">Disclaimer</a></p>
+<p>&copy; 2026 Daily Quiz Answers. All rights reserved.</p>
+</footer>
+</body>
+</html>
